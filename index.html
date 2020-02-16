@@ -1,1 +1,93 @@
-<h1>GPT2 Treasure Hunt</h1>
+
+<!-- saved from url=(0048)file:///Users/cj/Downloads/ai-treasure-hunt.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css">
+body {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #ffffff;
+    background: #232323;
+    background-image: url('./ai-treasure-hunt.png');
+    background-position-x : 50%;
+    background-repeat: no-repeat;
+}
+
+#wrap {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 45%;
+    margin-bottom: 0;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 60px;
+    font-style: italic;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+</style>
+
+</head><body><div id="wrap">
+<h1 id="ai-treasure-hunt-instructions">AI Treasure Hunt</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>The Challenge</h2>
+<p>Do you store your private keys in the cloud? Is it safe for companies to train ai models on your "anonymized" data?</p>
+
+<p>We hid a SECRET HASH inside of GPT2 (a deep learning language model), "interrogate" it to win a bounty in CHAI (Dai DSR derivative token).</p>
+<br>
+<h2>How To Play</h2>
+<ol>
+<li><p>Visit <a href="https://colab.research.google.com/drive/1Td1jtuMxIC_2RcLxM56FucVEyK_G3uB2">https://colab.research.google.com/drive/1Td1jtuMxIC_2RcLxM56FucVEyK_G3uB2</a> and follow the instructions to interrogate the AI for the <b>secret hash</b>.</p>
+</li>
+<li><p>Visit <a href="https://justsmartcontracts.dev/">justsmartcontracts.dev</a></p>
+</li>
+<li><p>Click 'Add Contract'</p>
+</li>
+<li><p>Enter the following info: (click to select info)</p>
+<ul>
+<li><p>Name:<br><textarea onfocus="this.select()">AI Treasure Hunt</textarea></p>
+</li>
+<li><p>Address:<br><textarea onfocus="this.select()">0xebdd3Bd175D0A08e2F1FDa768a75969105B6F5F9</textarea></p>
+</li>
+<li><p>ABI:<br><textarea onfocus="this.select()">[{"constant":true,"inputs":[],"name":"answerHash","outputs":[{"name":"","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"answer","type":"string"}],"name":"submit","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"claimed","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"logText","type":"string"}],"name":"Log","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"logText","type":"string"},{"indexed":false,"name":"hash","type":"bytes32"}],"name":"LogHash","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"addy","type":"address"}],"name":"LogAddess","type":"event"}]</textarea></p>
+</li>
+</ul>
+</li>
+<li><p>Press "Add"</p>
+</li>
+<li><p>You can see if the prize was already claimed from the "claimed" property</p>
+</li>
+<li><p>You can see the hash of the winning answer from the "answerHash" property</p>
+</li>
+<li><p>To submit an answer to the challenge, click "Operations", then "submit"</p>
+</li>
+<li><p>Enter your proposed answer (the secret hash!), and click "Generate"</p>
+</li>
+<li><p>Click "Metamask" and allow the page to read your address</p>
+</li>
+<li><p>Click "Sign" and confirm the transaction with Metamask</p>
+</li>
+<li><p>If you are the first to find the correct secret, you will receive 20 CHAI!</p>
+</li>
+</ol>
+</div>
+<br>
+<br></body></html>
